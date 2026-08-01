@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Magic Match</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; margin: 0; padding: 0 20px 64px;
+    color: #1c1e21; background: #f4f6f8;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header {
+    padding: 40px 0 24px; border-bottom: 1px solid #d9dde1; margin-bottom: 28px;
+  }
+  h1 { font-size: 1.9rem; margin: 0 0 6px; }
+  h2 { font-size: 1.25rem; margin: 34px 0 10px; }
+  .eff { color: #6b7280; font-size: 0.95rem; }
+  .pkg { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #e7ebef; padding: 2px 6px; border-radius: 5px; font-size: 0.9em; }
+  a { color: #2563eb; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .lang-sep { margin: 48px 0 0; border: 0; border-top: 2px dashed #cbd2d9; }
+  .note { background: #fff; border: 1px solid #d9dde1; border-radius: 10px; padding: 14px 18px; margin: 18px 0; }
+  footer { margin-top: 48px; color: #6b7280; font-size: 0.9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e4e6eb; background: #18191a; }
+    header { border-color: #3a3b3c; }
+    .pkg { background: #2b2c2e; }
+    .note { background: #242526; border-color: #3a3b3c; }
+    header .eff, footer { color: #b0b3b8; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Gizlilik Politikası — Magic Match</h1>
+  <div class="eff">Yürürlük tarihi: 6 Temmuz 2026 · <span class="pkg">com.eyacore.magicmatch</span> · EYA Core</div>
+</header>
+
+<p>Bu gizlilik politikası, <strong>EYA Core</strong> tarafından geliştirilen ve yayınlanan <strong>Magic Match</strong> mobil oyunu (<span class="pkg">com.eyacore.magicmatch</span>) için geçerlidir. Uygulamanın hangi verileri topladığını, bunları nasıl kullandığını ve verilerinizin silinmesini nasıl talep edebileceğinizi açıklar.</p>
+
+<h2>Özet</h2>
+<p>Magic Match; giriş, liderlik tablosu ve başarımlar için Google Play Games Services'i, oyun ilerlemenizi cihazlar arasında yedeklemek için Firebase'i kullanır. Reklam veya üçüncü taraf reklam SDK'sı içermez, verilerinizi reklamcılarla satmaz veya paylaşmaz.</p>
+
+<h2>Topladığımız Veriler</h2>
+<ul>
+  <li><strong>Cihaz veya diğer kimlikler</strong> — bulut kayıt verinizin anahtarı olarak bir cihaz kimliği (giriş yaptıktan sonra ise Google Play Games oyuncu kimliğiniz) kullanılır.</li>
+  <li><strong>Kullanıcı kimlikleri</strong> — giriş, liderlik tablosu ve başarımlar için Google Play Games oyuncu kimliğiniz.</li>
+  <li><strong>Oyun ilerleme verisi</strong> — coinler, tamamlanan seviyeler, yıldızlar, yüksek skorlar, açılan bölgeler/binalar ve dükkan/ev dekorasyon seçimleriniz; yeni bir cihazda ilerlemenizi geri yükleyebilmemiz için Firebase veritabanımıza yedeklenir.</li>
+  <li><strong>Satın alma bilgisi</strong> — uygulama içi coin paketi satın alırsanız, işlem tamamen <strong>Google Play Billing</strong> tarafından işlenir. Biz yalnızca satın alınan ürünün onayını (ürün kimliği) alırız; kart bilgilerinizi asla görmez veya saklamayız.</li>
+  <li><strong>Cihaz bütünlüğü sinyalleri</strong> — Google Play Integrity API, uygulamanın orijinal ve değiştirilmemiş bir kurulumda çalıştığını doğrulamak için Google'a kısa ömürlü bir doğrulama jetonu gönderebilir. Bu yalnızca hile/kurcalama önleme amaçlıdır ve tarafımızca saklanmaz.</li>
+</ul>
+<p>Adınızı, e-posta adresinizi, hassas konum bilginizi, rehberinizi, fotoğraflarınızı veya hassas izinleri (kamera, mikrofon, konum erişimi istenmez) toplamayız.</p>
+
+<h2>Üçüncü Taraf Servisler</h2>
+<ul>
+  <li><strong>Google Play Games Services</strong> — giriş, liderlik tablosu, başarımlar.</li>
+  <li><strong>Firebase (Firestore)</strong> — oyun ilerlemenizin bulut yedeklemesi.</li>
+  <li><strong>Google Play Billing</strong> — uygulama içi satın almaları işler.</li>
+  <li><strong>Google Play Integrity API</strong> — kurcalama önleme doğrulaması.</li>
+</ul>
+<p>Bu servislere aktarılan tüm veriler şifrelenerek (HTTPS/TLS) gönderilir.</p>
+
+<h2>Yerel Kayıt</h2>
+<p>Cihazınız ayrıca ilerlemenizin yerel bir kopyasını da tutar. Bulut yedekleme kullanılamıyorsa oyun bu yerel kopyayla tamamen çevrimdışı çalışmaya devam eder.</p>
+
+<h2>Hesap ve Veri Silme</h2>
+<div class="note">
+<p>Bizde ayrı bir kullanıcı adı/şifre oluşturmanıza gerek yoktur — hesabınız Google Play Games girişinizdir. Magic Match bulut verinizin silinmesini talep etmek için:</p>
+<ol>
+  <li><a href="mailto:yunusemra6116@gmail.com?subject=Magic%20Match%20—%20Veri%20Silme%20Talebi">yunusemra6116@gmail.com</a> adresine "Magic Match — Veri Silme Talebi" konu başlığıyla e-posta gönderin.</li>
+  <li>Kaydınızı bulabilmemiz için Google Play Games oyuncu adınızı (oyunun Başarımlar/Liderlik Tablosu ekranında görünür) veya oynadığınız cihazı belirtin.</li>
+  <li>Doğrulanmış talebinizden itibaren 30 gün içinde bulut kayıt verinizi (coinler, seviye ilerlemesi, açılanlar, yüksek skorlar) Firebase veritabanımızdan sileriz. Uygulamayı kaldırdığınızda cihazınızda yerel olarak saklanan tüm veriler anında silinir.</li>
+</ol>
+<p>Ayrıntılı adımlar için: <a href="delete-account.html">Hesap ve Veri Silme sayfası</a>.</p>
+</div>
+<p>Not: Google Play Games Services profil verileriniz (oyuncu kimliğiniz, başarımlarınız ve liderlik tablosu geçmişiniz) Google tarafından kendi politikaları çerçevesinde saklanır; bunu Google Hesabı ayarlarınızdan ayrıca yönetebilir/silebilirsiniz.</p>
+
+<h2>Çocukların Gizliliği</h2>
+<p>Magic Match, çocuklar dahil kimseden bilerek ad veya e-posta gibi kişisel bilgi toplamaz. Oyunda sohbet, dış bağlantı veya Google Play'in kendi liderlik tablosu dışında sosyal özellik bulunmaz.</p>
+
+<h2>Politika Değişiklikleri</h2>
+<p>Uygulamanın veri işleme şekli değişirse, değişiklik yürürlüğe girmeden önce bu politika güncellenecek ve mağaza içi Veri Güvenliği formu da buna göre güncellenecektir.</p>
+
+<h2>İletişim</h2>
+<p>Bu politika hakkında sorularınız veya veri silme talepleriniz için <a href="mailto:yunusemra6116@gmail.com">yunusemra6116@gmail.com</a> adresinden bize ulaşabilirsiniz.</p>
+
+<hr class="lang-sep">
+
+<header style="border:0;padding-bottom:0;">
+  <h1>Privacy Policy — Magic Match</h1>
+  <div class="eff">Effective date: July 6, 2026 · <span class="pkg">com.eyacore.magicmatch</span> · EYA Core</div>
+</header>
+
+<p>This privacy policy applies to the <strong>Magic Match</strong> mobile game (package name: <span class="pkg">com.eyacore.magicmatch</span>), developed and published by <strong>EYA Core</strong> ("we", "us"). It explains what data the app collects, how it is used, and how you can request deletion of your data.</p>
+
+<h2>Summary</h2>
+<p>Magic Match uses Google Play Games Services for sign-in, leaderboards, and achievements, and Firebase to back up your game progress across devices. It does <strong>not</strong> contain ads or third-party ad SDKs, and does not sell or share your data with advertisers.</p>
+
+<h2>Data We Collect</h2>
+<ul>
+  <li><strong>Device or other IDs</strong> — a device identifier (or, once you sign in, your Google Play Games player ID) is used as the key for your cloud save record.</li>
+  <li><strong>User IDs</strong> — your Google Play Games player ID, used for sign-in, leaderboards, and achievements.</li>
+  <li><strong>Game progress data</strong> — coins, completed levels, stars, high scores, unlocked zones/buildings, and shop/house decoration choices, backed up to our Firebase database so your progress can be restored on a new device.</li>
+  <li><strong>Purchase information</strong> — if you buy an in-app coin pack, the purchase is processed entirely by <strong>Google Play Billing</strong>. We only receive confirmation that a product was purchased (product ID); we never see or store your payment card details.</li>
+  <li><strong>Device integrity signals</strong> — Google Play's Integrity API may send a short-lived verification token to Google to confirm the app is running on a genuine, unmodified install. This is used for anti-cheat/anti-tampering purposes only and is not stored by us.</li>
+</ul>
+<p>We do <strong>not</strong> collect your name, email address, precise location, contacts, photos, or any sensitive permissions (no camera, microphone, or location access is requested).</p>
+
+<h2>Third-Party Services</h2>
+<ul>
+  <li><strong>Google Play Games Services</strong> — sign-in, leaderboards, achievements.</li>
+  <li><strong>Firebase (Firestore)</strong> — cloud backup of your game progress.</li>
+  <li><strong>Google Play Billing</strong> — processes in-app purchases.</li>
+  <li><strong>Google Play Integrity API</strong> — anti-tampering verification.</li>
+</ul>
+<p>All data in transit to these services is encrypted (HTTPS/TLS).</p>
+
+<h2>Local Storage</h2>
+<p>Your device also keeps a local copy of your progress. If cloud backup is unavailable, the game continues to work fully offline using this local copy.</p>
+
+<h2>Account &amp; Data Deletion</h2>
+<div class="note">
+<p>You do not need to create a username/password with us — your account is your Google Play Games sign-in. To request deletion of your Magic Match cloud data, email <a href="mailto:yunusemra6116@gmail.com?subject=Magic%20Match%20—%20Data%20Deletion%20Request">yunusemra6116@gmail.com</a> with the subject "Magic Match — Data Deletion Request", including your Google Play Games player name or the device you played on. We will delete your cloud save within 30 days of a verified request. See the <a href="delete-account.html">Account &amp; Data Deletion page</a> for full steps.</p>
+</div>
+
+<h2>Children's Privacy</h2>
+<p>Magic Match does not knowingly collect personal information such as name or email from anyone, including children. The game contains no chat, no external links, and no social features beyond Google Play's own leaderboards.</p>
+
+<h2>Changes to This Policy</h2>
+<p>If how the app handles data changes, this policy will be updated here before the change takes effect, and the in-store Data Safety form will be updated accordingly.</p>
+
+<h2>Contact</h2>
+<p>For questions about this privacy policy or to request data deletion, email <a href="mailto:yunusemra6116@gmail.com">yunusemra6116@gmail.com</a>.</p>
+
+<footer>© 2026 EYA Core · Magic Match</footer>
+
+</div>
+</body>
+</html>
