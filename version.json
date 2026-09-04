@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.47.0",
+  "latestVersion": "1.48.0",
   "forceUpdate": false,
   "androidUrl": "https://play.google.com/store/apps/details?id=com.eyacore.magicmatch",
   "iosUrl": "",
-  "message": "Bolum zorluk dengeleri iyilestirildi ve bazi bolumlerdeki takilmalar giderildi. Iyi oyunlar!"
+  "message": "Uretim paneli yenilendi: tarifler daha derli toplu, malzemeleri saga cekmek cok daha kolay. Ambar ve Silo artik kaydiriliyor, bazi bolumler dengelendi."
 }
