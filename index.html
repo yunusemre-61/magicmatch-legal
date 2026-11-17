@@ -40,53 +40,79 @@
 
 <header>
   <h1>Gizlilik Politikası — Magic Match</h1>
-  <div class="eff">Yürürlük tarihi: 6 Temmuz 2026 · <span class="pkg">com.eyacore.magicmatch</span> · EYA Core</div>
+  <div class="eff">Yürürlük tarihi: 17 Kasım 2026 · <span class="pkg">com.eyacore.magicmatch</span> · EYA Core</div>
 </header>
 
-<p>Bu gizlilik politikası, <strong>EYA Core</strong> tarafından geliştirilen ve yayınlanan <strong>Magic Match</strong> mobil oyunu (<span class="pkg">com.eyacore.magicmatch</span>) için geçerlidir. Uygulamanın hangi verileri topladığını, bunları nasıl kullandığını ve verilerinizin silinmesini nasıl talep edebileceğinizi açıklar.</p>
+<p>Bu gizlilik politikası, <strong>EYA Core</strong> tarafından geliştirilen ve yayınlanan <strong>Magic Match</strong> mobil oyunu (<span class="pkg">com.eyacore.magicmatch</span>) için geçerlidir. Uygulamanın hangi verileri topladığını, bunları nasıl kullandığını ve kimlerle paylaştığını, verilerinizin silinmesini nasıl talep edebileceğinizi açıklar.</p>
 
 <h2>Özet</h2>
-<p>Magic Match; giriş, liderlik tablosu ve başarımlar için Google Play Games Services'i, oyun ilerlemenizi cihazlar arasında yedeklemek için Firebase'i kullanır. Reklam veya üçüncü taraf reklam SDK'sı içermez, verilerinizi reklamcılarla satmaz veya paylaşmaz.</p>
+<ul>
+  <li>Oyunda <strong>ödüllü reklamlar</strong> vardır. Reklamları <strong>Unity Ads</strong> gösterir; reklamlar kişiselleştirilmez.</li>
+  <li>Oyun ilerlemeniz, seçtiğiniz kullanıcı adı ve skorlarınız <strong>Firebase</strong>'de saklanır.</li>
+  <li>Giriş, liderlik tablosu ve başarımlar için <strong>Google Play Games Services</strong> kullanılır.</li>
+  <li>Oyunun güncel sürümünde <strong>gerçek parayla satın alma yoktur</strong>.</li>
+  <li>Verilerinizi satmayız.</li>
+</ul>
+
+<h2>Reklamlar</h2>
+<p>Magic Match'te yalnızca ödüllü reklamlar vardır: bir reklam, siz bir ödül (örneğin +500 coin, +1 can veya +5 hamle) için izlemeyi seçtiğinizde gösterilir. Reklamları Unity Technologies'in <strong>Unity Ads</strong> hizmeti sunar.</p>
+<p>Reklamlar kişiselleştirilmez. Unity Ads'e davranışsal hedeflemeyi kapatma sinyali gönderiyoruz; bu yüzden reklamlar ilgi alanlarınıza göre değil, bağlama göre seçilir.</p>
+<p>Unity'nin kendi açıklamasına göre Unity Ads SDK'sı reklamı göstermek, ölçmek ve sahtekarlığı önlemek için şu verileri toplar ve Unity'ye gönderir:</p>
+<ul>
+  <li>cihaz kimlikleri (Android reklam kimliği dahil) ve Unity'nin kullandığı kullanıcı kimlikleri,</li>
+  <li>IP adresinden çıkarılan yaklaşık konum,</li>
+  <li>reklamın içindeki görüntüleme ve dokunuşlar (oyun içindeki hareketleriniz değil),</li>
+  <li>uygulama teşhis verileri (örneğin performans bilgisi),</li>
+  <li>satın alma geçmişi bilgisi.</li>
+</ul>
+<p>Unity bu verileri kendi politikasına göre işler: <a href="https://unity.com/legal/privacy-policy">Unity Gizlilik Politikası</a>. Unity'nin tuttuğu verilere erişmek veya silinmesini istemek için <a href="https://unity.com/data-request">Unity'nin veri talebi sayfasını</a> kullanabilirsiniz. Reklam kimliğinizi Android ayarlarından (Google › Reklamlar) sıfırlayabilir veya silebilirsiniz.</p>
 
 <h2>Topladığımız Veriler</h2>
+<p>Aşağıdaki veriler oyunun çalışması için Firebase veritabanımızda saklanır:</p>
 <ul>
-  <li><strong>Cihaz veya diğer kimlikler</strong> — bulut kayıt verinizin anahtarı olarak bir cihaz kimliği (giriş yaptıktan sonra ise Google Play Games oyuncu kimliğiniz) kullanılır.</li>
+  <li><strong>Kullanıcı adı</strong> — oyunda seçtiğiniz takma ad. Oyun içi skor tablosunda, derbide ve pazar ilanlarında diğer oyunculara görünür. Gerçek adınızı kullanmamanızı öneririz.</li>
+  <li><strong>Oyun ilerleme verisi</strong> — coinler, tamamlanan bölümler, yıldızlar, yüksek skorlar, açılan bölgeler ve binalar, çiftlik, dükkân ve ev dekorasyonu. Yeni bir cihazda ilerlemenizi geri yükleyebilmek için yedeklenir.</li>
+  <li><strong>Skor, derbi ve pazar verisi</strong> — haftalık skorunuz, derbi puanınız, pazara koyduğunuz ilanlar (ürün, adet, altın fiyatı) ve yaptığınız satışlar.</li>
+  <li><strong>Cihaz veya diğer kimlikler</strong> — bulut kaydınızın anahtarı olarak bir cihaz kimliği, giriş yaptıysanız Google Play Games oyuncu kimliğiniz kullanılır.</li>
   <li><strong>Kullanıcı kimlikleri</strong> — giriş, liderlik tablosu ve başarımlar için Google Play Games oyuncu kimliğiniz.</li>
-  <li><strong>Oyun ilerleme verisi</strong> — coinler, tamamlanan seviyeler, yıldızlar, yüksek skorlar, açılan bölgeler/binalar ve dükkan/ev dekorasyon seçimleriniz; yeni bir cihazda ilerlemenizi geri yükleyebilmemiz için Firebase veritabanımıza yedeklenir.</li>
-  <li><strong>Satın alma bilgisi</strong> — uygulama içi coin paketi satın alırsanız, işlem tamamen <strong>Google Play Billing</strong> tarafından işlenir. Biz yalnızca satın alınan ürünün onayını (ürün kimliği) alırız; kart bilgilerinizi asla görmez veya saklamayız.</li>
-  <li><strong>Cihaz bütünlüğü sinyalleri</strong> — Google Play Integrity API, uygulamanın orijinal ve değiştirilmemiş bir kurulumda çalıştığını doğrulamak için Google'a kısa ömürlü bir doğrulama jetonu gönderebilir. Bu yalnızca hile/kurcalama önleme amaçlıdır ve tarafımızca saklanmaz.</li>
+  <li><strong>Cihaz bütünlüğü sinyalleri</strong> — Google Play Integrity API, uygulamanın orijinal ve değiştirilmemiş bir kurulumda çalıştığını doğrulamak için Google'a kısa ömürlü bir doğrulama jetonu gönderebilir. Bu yalnızca hile ve kurcalama önleme amaçlıdır ve tarafımızca saklanmaz.</li>
 </ul>
-<p>Adınızı, e-posta adresinizi, hassas konum bilginizi, rehberinizi, fotoğraflarınızı veya hassas izinleri (kamera, mikrofon, konum erişimi istenmez) toplamayız.</p>
+<p>Gerçek adınızı, e-posta adresinizi, hassas konumunuzu, rehberinizi veya fotoğraflarınızı toplamayız. Kamera, mikrofon veya konum izni istemeyiz.</p>
+
+<h2>Satın Almalar</h2>
+<p>Oyunun güncel sürümünde gerçek parayla satın alma yoktur; oyundaki her şey oyun içinde kazanılan altınla alınır. Önceki sürümlerde Google Play üzerinden coin paketi satın alınabiliyordu. Bu satın almalar tamamen <strong>Google Play Billing</strong> tarafından işlendi; biz yalnızca satın alınan ürünün kimliğini aldık, ödeme bilgilerinizi hiçbir zaman görmedik veya saklamadık.</p>
 
 <h2>Üçüncü Taraf Servisler</h2>
 <ul>
+  <li><strong>Unity Ads (Unity Technologies)</strong> — ödüllü reklamlar.</li>
   <li><strong>Google Play Games Services</strong> — giriş, liderlik tablosu, başarımlar.</li>
-  <li><strong>Firebase (Firestore)</strong> — oyun ilerlemenizin bulut yedeklemesi.</li>
-  <li><strong>Google Play Billing</strong> — uygulama içi satın almaları işler.</li>
+  <li><strong>Firebase (Firestore)</strong> — bulut yedekleme, oyun içi skor tablosu, derbi ve pazar.</li>
   <li><strong>Google Play Integrity API</strong> — kurcalama önleme doğrulaması.</li>
+  <li><strong>GitHub</strong> — güncelleme kontrolü. Oyun, yeni sürüm olup olmadığını öğrenmek için GitHub'dan küçük bir dosya indirir; bu istekte sizinle ilgili bir veri göndermeyiz.</li>
+  <li><strong>Google Play Billing</strong> — yalnızca önceki sürümlerdeki satın almalar.</li>
 </ul>
-<p>Bu servislere aktarılan tüm veriler şifrelenerek (HTTPS/TLS) gönderilir.</p>
+<p>Bu servislere aktarılan tüm veriler şifrelenerek (HTTPS/TLS) gönderilir. Firebase'deki verileriniz yalnızca oyunu çalıştırmak için kullanılır ve reklamcılarla paylaşılmaz.</p>
 
 <h2>Yerel Kayıt</h2>
-<p>Cihazınız ayrıca ilerlemenizin yerel bir kopyasını da tutar. Bulut yedekleme kullanılamıyorsa oyun bu yerel kopyayla tamamen çevrimdışı çalışmaya devam eder.</p>
+<p>Cihazınız ayrıca ilerlemenizin yerel bir kopyasını da tutar. Bulut yedekleme kullanılamıyorsa oyun bu yerel kopyayla çevrimdışı çalışmaya devam eder.</p>
 
 <h2>Hesap ve Veri Silme</h2>
 <div class="note">
-<p>Bizde ayrı bir kullanıcı adı/şifre oluşturmanıza gerek yoktur — hesabınız Google Play Games girişinizdir. Magic Match bulut verinizin silinmesini talep etmek için:</p>
+<p>Bizde ayrı bir e-posta veya şifre hesabı oluşturmazsınız; hesabınız Google Play Games girişinizdir. Magic Match verilerinizin silinmesini talep etmek için:</p>
 <ol>
   <li><a href="mailto:yunusemra6116@gmail.com?subject=Magic%20Match%20—%20Veri%20Silme%20Talebi">yunusemra6116@gmail.com</a> adresine "Magic Match — Veri Silme Talebi" konu başlığıyla e-posta gönderin.</li>
-  <li>Kaydınızı bulabilmemiz için Google Play Games oyuncu adınızı (oyunun Başarımlar/Liderlik Tablosu ekranında görünür) veya oynadığınız cihazı belirtin.</li>
-  <li>Doğrulanmış talebinizden itibaren 30 gün içinde bulut kayıt verinizi (coinler, seviye ilerlemesi, açılanlar, yüksek skorlar) Firebase veritabanımızdan sileriz. Uygulamayı kaldırdığınızda cihazınızda yerel olarak saklanan tüm veriler anında silinir.</li>
+  <li>Kaydınızı bulabilmemiz için oyun içi kullanıcı adınızı, Google Play Games oyuncu adınızı veya oynadığınız cihazı belirtin.</li>
+  <li>Doğrulanmış talebinizden itibaren 30 gün içinde bulut kaydınızı, kullanıcı adınızı, skor ve derbi kayıtlarınızı, pazar ilanlarınızı ve satışlarınızı Firebase veritabanımızdan sileriz. Uygulamayı kaldırdığınızda cihazınızda yerel olarak saklanan tüm veriler anında silinir.</li>
 </ol>
 <p>Ayrıntılı adımlar için: <a href="delete-account.html">Hesap ve Veri Silme sayfası</a>.</p>
 </div>
-<p>Not: Google Play Games Services profil verileriniz (oyuncu kimliğiniz, başarımlarınız ve liderlik tablosu geçmişiniz) Google tarafından kendi politikaları çerçevesinde saklanır; bunu Google Hesabı ayarlarınızdan ayrıca yönetebilir/silebilirsiniz.</p>
+<p>Not: Google Play Games Services profil verileriniz (oyuncu kimliğiniz, başarımlarınız ve liderlik tablosu geçmişiniz) Google tarafından kendi politikaları çerçevesinde saklanır; bunları Google Hesabı ayarlarınızdan ayrıca yönetebilir veya silebilirsiniz. Unity Ads'in topladığı reklam verilerine biz erişemeyiz; bunlar için <a href="https://unity.com/data-request">Unity'nin veri talebi sayfasını</a> kullanın.</p>
 
 <h2>Çocukların Gizliliği</h2>
-<p>Magic Match, çocuklar dahil kimseden bilerek ad veya e-posta gibi kişisel bilgi toplamaz. Oyunda sohbet, dış bağlantı veya Google Play'in kendi liderlik tablosu dışında sosyal özellik bulunmaz.</p>
+<p>Magic Match, çocuklar dahil kimseden bilerek gerçek ad veya e-posta gibi kişisel bilgi toplamaz. Oyunda sohbet yoktur. Oyuncunun seçtiği kullanıcı adı oyun içi skor tablosunda, derbide ve pazarda diğer oyunculara görünür. Reklamlar yalnızca oyuncu ödül için izlemeyi seçtiğinde gösterilir ve kişiselleştirilmez.</p>
 
 <h2>Politika Değişiklikleri</h2>
-<p>Uygulamanın veri işleme şekli değişirse, değişiklik yürürlüğe girmeden önce bu politika güncellenecek ve mağaza içi Veri Güvenliği formu da buna göre güncellenecektir.</p>
+<p>Uygulamanın veri işleme şekli değişirse, değişiklik yürürlüğe girmeden önce bu politika güncellenecek ve mağazadaki Veri Güvenliği formu da buna göre güncellenecektir.</p>
 
 <h2>İletişim</h2>
 <p>Bu politika hakkında sorularınız veya veri silme talepleriniz için <a href="mailto:yunusemra6116@gmail.com">yunusemra6116@gmail.com</a> adresinden bize ulaşabilirsiniz.</p>
@@ -95,46 +121,73 @@
 
 <header style="border:0;padding-bottom:0;">
   <h1>Privacy Policy — Magic Match</h1>
-  <div class="eff">Effective date: July 6, 2026 · <span class="pkg">com.eyacore.magicmatch</span> · EYA Core</div>
+  <div class="eff">Effective date: November 17, 2026 · <span class="pkg">com.eyacore.magicmatch</span> · EYA Core</div>
 </header>
 
-<p>This privacy policy applies to the <strong>Magic Match</strong> mobile game (package name: <span class="pkg">com.eyacore.magicmatch</span>), developed and published by <strong>EYA Core</strong> ("we", "us"). It explains what data the app collects, how it is used, and how you can request deletion of your data.</p>
+<p>This privacy policy applies to the <strong>Magic Match</strong> mobile game (package name: <span class="pkg">com.eyacore.magicmatch</span>), developed and published by <strong>EYA Core</strong> ("we", "us"). It explains what data the app collects, how it is used and with whom it is shared, and how you can request deletion of your data.</p>
 
 <h2>Summary</h2>
-<p>Magic Match uses Google Play Games Services for sign-in, leaderboards, and achievements, and Firebase to back up your game progress across devices. It does <strong>not</strong> contain ads or third-party ad SDKs, and does not sell or share your data with advertisers.</p>
+<ul>
+  <li>The game contains <strong>rewarded ads</strong>, served by <strong>Unity Ads</strong>. Ads are not personalized.</li>
+  <li>Your game progress, the username you choose, and your scores are stored in <strong>Firebase</strong>.</li>
+  <li><strong>Google Play Games Services</strong> is used for sign-in, leaderboards, and achievements.</li>
+  <li>The current version of the game has <strong>no real-money purchases</strong>.</li>
+  <li>We do not sell your data.</li>
+</ul>
+
+<h2>Ads</h2>
+<p>Magic Match only shows rewarded ads: an ad plays when you choose to watch one for a reward (for example +500 coins, +1 life, or +5 moves). Ads are provided by <strong>Unity Ads</strong>, a service of Unity Technologies.</p>
+<p>Ads are not personalized. We send Unity Ads a signal that turns off behavioral targeting, so ads are chosen based on context, not on your interests.</p>
+<p>According to Unity's own disclosure, the Unity Ads SDK collects the following data and sends it to Unity to serve and measure ads and to prevent fraud:</p>
+<ul>
+  <li>device identifiers (including the Android advertising ID) and user identifiers used by Unity,</li>
+  <li>approximate location derived from your IP address,</li>
+  <li>views and taps inside the ad (not your actions in the game),</li>
+  <li>app diagnostics (for example performance information),</li>
+  <li>purchase history information.</li>
+</ul>
+<p>Unity processes this data under its own policy: <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>. To access the data Unity holds or ask for it to be deleted, use <a href="https://unity.com/data-request">Unity's data request page</a>. You can reset or delete your advertising ID in your Android settings (Google › Ads).</p>
 
 <h2>Data We Collect</h2>
+<p>The following data is stored in our Firebase database so the game can work:</p>
 <ul>
-  <li><strong>Device or other IDs</strong> — a device identifier (or, once you sign in, your Google Play Games player ID) is used as the key for your cloud save record.</li>
+  <li><strong>Username</strong> — the nickname you choose in the game. It is visible to other players on the in-game leaderboard, in the derby, and on marketplace listings. We recommend not using your real name.</li>
+  <li><strong>Game progress data</strong> — coins, completed levels, stars, high scores, unlocked zones and buildings, farm, shop, and house decorations. It is backed up so your progress can be restored on a new device.</li>
+  <li><strong>Score, derby, and marketplace data</strong> — your weekly score, derby points, the listings you post on the marketplace (item, quantity, gold price), and your sales.</li>
+  <li><strong>Device or other IDs</strong> — a device identifier, or your Google Play Games player ID once you sign in, is used as the key for your cloud save record.</li>
   <li><strong>User IDs</strong> — your Google Play Games player ID, used for sign-in, leaderboards, and achievements.</li>
-  <li><strong>Game progress data</strong> — coins, completed levels, stars, high scores, unlocked zones/buildings, and shop/house decoration choices, backed up to our Firebase database so your progress can be restored on a new device.</li>
-  <li><strong>Purchase information</strong> — if you buy an in-app coin pack, the purchase is processed entirely by <strong>Google Play Billing</strong>. We only receive confirmation that a product was purchased (product ID); we never see or store your payment card details.</li>
-  <li><strong>Device integrity signals</strong> — Google Play's Integrity API may send a short-lived verification token to Google to confirm the app is running on a genuine, unmodified install. This is used for anti-cheat/anti-tampering purposes only and is not stored by us.</li>
+  <li><strong>Device integrity signals</strong> — Google Play's Integrity API may send a short-lived verification token to Google to confirm the app is running on a genuine, unmodified install. This is used for anti-cheat and anti-tampering purposes only and is not stored by us.</li>
 </ul>
-<p>We do <strong>not</strong> collect your name, email address, precise location, contacts, photos, or any sensitive permissions (no camera, microphone, or location access is requested).</p>
+<p>We do <strong>not</strong> collect your real name, email address, precise location, contacts, or photos. The app does not request camera, microphone, or location permissions.</p>
+
+<h2>Purchases</h2>
+<p>The current version of the game has no real-money purchases; everything in the game is bought with gold earned in the game. Earlier versions offered coin packs through Google Play. Those purchases were processed entirely by <strong>Google Play Billing</strong>; we only received the ID of the purchased product and never saw or stored your payment details.</p>
 
 <h2>Third-Party Services</h2>
 <ul>
+  <li><strong>Unity Ads (Unity Technologies)</strong> — rewarded ads.</li>
   <li><strong>Google Play Games Services</strong> — sign-in, leaderboards, achievements.</li>
-  <li><strong>Firebase (Firestore)</strong> — cloud backup of your game progress.</li>
-  <li><strong>Google Play Billing</strong> — processes in-app purchases.</li>
+  <li><strong>Firebase (Firestore)</strong> — cloud backup, in-game leaderboard, derby, and marketplace.</li>
   <li><strong>Google Play Integrity API</strong> — anti-tampering verification.</li>
+  <li><strong>GitHub</strong> — update check. The game downloads a small file from GitHub to find out whether a new version is available; we do not send any data about you with this request.</li>
+  <li><strong>Google Play Billing</strong> — purchases in earlier versions only.</li>
 </ul>
-<p>All data in transit to these services is encrypted (HTTPS/TLS).</p>
+<p>All data in transit to these services is encrypted (HTTPS/TLS). Your data in Firebase is used only to run the game and is not shared with advertisers.</p>
 
 <h2>Local Storage</h2>
-<p>Your device also keeps a local copy of your progress. If cloud backup is unavailable, the game continues to work fully offline using this local copy.</p>
+<p>Your device also keeps a local copy of your progress. If cloud backup is unavailable, the game keeps working offline using this local copy.</p>
 
 <h2>Account &amp; Data Deletion</h2>
 <div class="note">
-<p>You do not need to create a username/password with us — your account is your Google Play Games sign-in. To request deletion of your Magic Match cloud data, email <a href="mailto:yunusemra6116@gmail.com?subject=Magic%20Match%20—%20Data%20Deletion%20Request">yunusemra6116@gmail.com</a> with the subject "Magic Match — Data Deletion Request", including your Google Play Games player name or the device you played on. We will delete your cloud save within 30 days of a verified request. See the <a href="delete-account.html">Account &amp; Data Deletion page</a> for full steps.</p>
+<p>You do not create a separate email or password account with us; your account is your Google Play Games sign-in. To request deletion of your Magic Match data, email <a href="mailto:yunusemra6116@gmail.com?subject=Magic%20Match%20—%20Data%20Deletion%20Request">yunusemra6116@gmail.com</a> with the subject "Magic Match — Data Deletion Request", including your in-game username, your Google Play Games player name, or the device you played on. Within 30 days of a verified request we delete your cloud save, username, score and derby entries, marketplace listings, and sales from our Firebase database. See the <a href="delete-account.html">Account &amp; Data Deletion page</a> for full steps.</p>
 </div>
+<p>Note: Google Play Games Services profile data (your player ID, achievements, and leaderboard history) is retained by Google under its own policies; you can manage or delete it separately through your Google Account settings. We cannot access the ad data collected by Unity Ads; for that data, use <a href="https://unity.com/data-request">Unity's data request page</a>.</p>
 
 <h2>Children's Privacy</h2>
-<p>Magic Match does not knowingly collect personal information such as name or email from anyone, including children. The game contains no chat, no external links, and no social features beyond Google Play's own leaderboards.</p>
+<p>Magic Match does not knowingly collect personal information such as a real name or email address from anyone, including children. The game has no chat. The username a player chooses is visible to other players on the in-game leaderboard, in the derby, and on the marketplace. Ads are shown only when the player chooses to watch one for a reward, and they are not personalized.</p>
 
 <h2>Changes to This Policy</h2>
-<p>If how the app handles data changes, this policy will be updated here before the change takes effect, and the in-store Data Safety form will be updated accordingly.</p>
+<p>If how the app handles data changes, this policy will be updated here before the change takes effect, and the Data safety form in the store will be updated accordingly.</p>
 
 <h2>Contact</h2>
 <p>For questions about this privacy policy or to request data deletion, email <a href="mailto:yunusemra6116@gmail.com">yunusemra6116@gmail.com</a>.</p>
